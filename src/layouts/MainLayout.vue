@@ -36,6 +36,9 @@
         <q-item to="/settings" clickable>
           <q-item-section> {{ $t("settings") }} </q-item-section>
         </q-item>
+        <q-item to="/kamera" clickable>
+          <q-item-section> {{ $t("Kamera") }} </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 

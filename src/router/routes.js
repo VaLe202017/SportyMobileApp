@@ -11,7 +11,8 @@ const routes = [
       { path: "email", component: () => import("pages/Email.vue") },
       { path: "tereni", component: () => import("pages/Tereni.vue") },
       { path: "oprema", component: () => import("pages/Oprema.vue") },
-      { path: "unos", component: () => import("pages/Unos.vue") }
+      { path: "unos", component: () => import("pages/Unos.vue") },
+      { path: "kamera", component: () => import("pages/Kamera.vue") }
     ],
   },
 
